@@ -9,7 +9,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/vmkgadi/Nodejs.git'
+                git branch: 'main', url: 'https://github.com/vmkgadi/Nodejs.git'
             }
         }
 
